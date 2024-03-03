@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4B</title>
+</head>
+<body bgcolor="black" style="color: white">
+    <form >
+        <fieldset>
+        <legend><b>Restaurant Reservation Form</b></legend>
+    <!--I have tried to wrap the legend snugly around the form but it didn't work. I wanted to make the with of the legend to 50 just like the "full  name" area.-->
+         <p>
+        <label for="name"></label>
+        <input type="text" id="name" name="name" size="50" placeholder="Full name" /><br><br>
+        <label for="number"></label>
+        <input type="text" id="number" name="number" size="20" placeholder="Phone number" /> 
+        &nbsp &nbsp &nbsp
+        <label for="email"></label>
+        <input type="email" id="email" name="email" size="20" placeholder="email" /><br><br>
+        <label for="date"></label>
+        <input type="date" id="date" name="date" size="15" placeholder="Date of reservation" /> 
+        &nbsp &nbsp &nbsp
+        <label for="time"></label>
+        <input type="time" id="time" name="time" size="15" placeholder="Time of reservation" /> 
+        &nbsp &nbsp
+        <label for="number"></label>
+        <input type="text" id="number" name="number" size="15" placeholder="Number of guests" /> 
+        <br><br>
+    <p>
+        Table preference<br>
+<input type="radio" name="preference" value="indoor"> Indoor <br>
+<input type="radio" name="preference" value="outdoor"> Outdoor <br>
+<input type="radio" name="preference" value="window seat"> Window seat <br>
+<input type="radio" name="preference" value="booth"> Booth <br>
+<input type="radio" name="preference" value="no preference"> No preference <br>
+<p>
+    <textarea name="description" id="" cols="50" rows="5" placeholder="Special requests"></textarea>
+</p>
+<p>
+    <textarea name="description" id="" cols="50" rows="2" placeholder="Aallergies or dietary restrictions"></textarea>
+</p>
+<p>
+    <textarea name="description" id="" cols="50" rows="2" placeholder="Promo code"></textarea>
+</p>
+<p>
+    <input type="checkbox" name="preference" value="no preference"> I confirm that the above information is correct and I understand the restaurant's reservation and cancellation policies <br>
+</p>
+     <p>
+          <input type = "submit" name = "submit" value = "Submit reservation" />
+        </p> 
+    </fieldset>
+    </form>  <!--I am unable to change the submit input bgcolour-->
+    <hr>
+
+    <!--This is an alternative where the date and time input type is text-->
+    <form >
+        <fieldset>
+        <legend><b>Restaurant Reservation Form</b></legend>
+         <p>
+        <label for="name"></label>
+        <input type="text" id="name" name="name" size="50" placeholder="Full name" /><br><br>
+        <label for="number"></label>
+        <input type="text" id="number" name="number" size="20" placeholder="Phone number" /> 
+        &nbsp &nbsp &nbsp
+        <label for="email"></label>
+        <input type="email" id="email" name="email" size="20" placeholder="email" /><br><br>
+        <label for="date"></label>
+        <input type="text" id="date" name="date" size="12" placeholder="Date of reservation" /> 
+        &nbsp 
+        <label for="time"></label>
+        <input type="text" id="time" name="time" size="12" placeholder="Time of reservation" /> 
+        &nbsp
+        <label for="number"></label>
+        <input type="text" id="number" name="number" size="12" placeholder="Number of guests" /> 
+        <br><br>
+    <p>
+        Table preference<br>
+<input type="radio" name="preference" value="indoor"> Indoor <br>
+<input type="radio" name="preference" value="outdoor"> Outdoor <br>
+<input type="radio" name="preference" value="window seat"> Window seat <br>
+<input type="radio" name="preference" value="booth"> Booth <br>
+<input type="radio" name="preference" value="no preference"> No preference <br>
+<p>
+    <textarea name="description" id="" cols="50" rows="5" placeholder="Special requests"></textarea>
+</p>
+<p>
+    <textarea name="description" id="" cols="50" rows="2" placeholder="Aallergies or dietary restrictions"></textarea>
+</p>
+<p>
+    <textarea name="description" id="" cols="50" rows="2" placeholder="Promo code"></textarea>
+</p>
+<p>
+    <input type="checkbox" name="preference" value="no preference"> I confirm that the above information is correct and I understand the restaurant's reservation and cancellation policies <br>
+</p>
+     <p>
+          <input type = "submit" name = "submit" value = "Submit reservation" />
+        </p> 
+    </fieldset>
+    </form>
+</body>
+</html>
