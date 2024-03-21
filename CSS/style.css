@@ -1,0 +1,60 @@
+/* 
+CSS selectors
+*{} is a universal selector
+.note{} is a class selector for every where note class is found 
+p.note{} will specifically target only paragraphs where the note class is found
+id selector
+child selector
+descendant selector
+adjacent sibling selector
+general sibling selector
+ */
+
+ /* 
+ The Cascading Sequence
+
+Last rule
+This means that where multiple rules are written for the same element, the last rule takes precedence over previous ones
+
+Specificity
+The more specific rule takes precedence over general rules
+ */
+
+ /* 
+Inheritance
+ Only font family and colour are automatically inherited
+ Borders, padding, backgound etc are not inherited. They have to be individually applied.
+ */
+
+ /* 
+Foreground Colours
+The property of the declaration is simply "color: ;"
+May be specified as either rgb values, hex codes or colour names
+The rgb values range from 0 to 254
+The hex code is a 6-digit colour preceded by a hash tag. It does not have an alpha channel but "opacity" may be used and the value is as for alpha channel described below
+The colour names are 147 in number
+
+Background colours
+The property of the declaration is "background-color: ;"git status
+
+Padding may be applied to it to make it look nicer
+The same coding convention as for foreground colours apply
+ */
+
+ /* 
+ Other colour conventions
+ HSB: hue, saturation, brightness
+Hue: the regular colour names. Ranges from 0 to 360 degrees
+Saturation: the amount of gray in a colour. More gray = less saturation, vice versa. Ranges from 0 to 100%
+Brightness: the blackness of a colour. The more the black, the less the brightness. Vice versa
+
+ HSL
+ L = luminous or lightness. Describes the amount of white or black in a colour with a range from 0 to 100%
+
+ rgba
+a = alpha channel with values anging from 0.0 to 1.0 and implies the opacity or transparancy of the rgb colour
+It is applied to rgb values with a comma after the last rgb value
+
+ HSLA
+A = alpha channel. Similar to that of rgba
+ */
