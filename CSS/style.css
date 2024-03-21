@@ -11,7 +11,7 @@ general sibling selector
  */
 
  /* 
- The Cascading Sequence
+ The Cascading Sequence of CSS Style
 
 Last rule
 This means that where multiple rules are written for the same element, the last rule takes precedence over previous ones
@@ -19,6 +19,7 @@ This means that where multiple rules are written for the same element, the last 
 Specificity
 The more specific rule takes precedence over general rules
  */
+
 
  /* 
 Inheritance
